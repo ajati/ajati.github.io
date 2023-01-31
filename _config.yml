@@ -26,7 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Talks: "talks"
   Codes: "codes"
-  Publications: "publications"
+  #Publications: "publications"
   Patents: "patents"
   CV: "https://ajati.github.io/pdfs/arindam_jati_CV_public.pdf"
   #Contact me: "contactme" -- added in aboutme
