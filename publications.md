@@ -5,7 +5,7 @@ subtitle: Newest comes first.
 ---
 
 ### [Google scholar profile](https://scholar.google.com/citations?hl=en&user=Gzal1y8AAAAJ)
-
+<!-- 
 ### Graduate Publications
 * Monisankha Pal, **Arindam Jati**, Raghuveer Peri, Chin-Cheng Hsu, Wael AbdAlmageed, Shrikanth Narayanan, _"Adversarial defense for deep speaker recognition using hybrid adversarial training"_, in ICASSP 2021. [arXiv preprint](https://arxiv.org/pdf/2010.16038.pdf)
 * **Arindam Jati**, Chin-Cheng Hsu, Monisankha Pal, Raghuveer Peri, Wael AbdAlmageed, Shrikanth Narayanan, [_"Adversarial Attack and Defense Strategies for Deep Speaker Recognition Systems"_](https://doi.org/10.1016/j.csl.2021.101199), in Elsevier Computer Speech and Language. [arXiv preprint](https://arxiv.org/pdf/2008.07685.pdf) [pdf](https://sail.usc.edu/publications/files/Jati-CSL2021.pdf)
@@ -39,3 +39,4 @@ subtitle: Newest comes first.
 
 ### Presentations
 * Williams, Paula G., Brian Baucom, **Arindam Jati**, and Panayiotis Georgiou. _"Physiological and Affective Responses to Stress Are Encoded in Vocal Acoustic Properties."_ In Psychosomatic Medicine, vol. 80, no. 3, pp. A96-A97. Two Commerce SQ, 2001 Market St, Philadelphia, PA 19103 USA: Lippincott Williams & Wilkins, 2018.
+ -->
