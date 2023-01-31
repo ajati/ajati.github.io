@@ -1,6 +1,6 @@
 ---
 layout: medium
-title: Publications
+title: Research
 subtitle: Newest comes first.
 ---
 
