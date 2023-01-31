@@ -190,7 +190,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-  - patents
+  - patents.md
 
 # prose.io config
 prose:
