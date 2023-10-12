@@ -78,12 +78,12 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
         #  rss: true
-  email: "jati@usc.edu"
-  facebook: arindamj
+  # email: "jati@usc.edu"
+  # facebook: arindamj
   github: ajati
   twitter: JatiTweet
 #  reddit: yourname
-  google-plus: +ArindamJati
+  # google-plus: +ArindamJati
   linkedin: arindam-jati-1287b265
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -99,8 +99,8 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  google: true
+  # facebook: true
+  # google: true
   linkedin: true
 
 # How to display the link to the website in the footer
