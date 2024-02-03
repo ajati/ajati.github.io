@@ -6,10 +6,10 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 
 
 ## [Feb, 2024] 📢 News Alert!! IBM PatchTST Blog. 📉
-#### A getting started tutorial blog has been released for the cutting edge time series Transformer-based model `PatchTST``. ✅ [Try it out](https://huggingface.co/blog/patchtst)
+#### A getting started tutorial blog has been released for the cutting edge time series Transformer-based model `PatchTST`. ✅ [Try it out](https://huggingface.co/blog/patchtst)
 
 ## [Jan, 2024] 📢 News Alert!! IBM PatchTSMixer Blog. 📉
-#### A getting started tutorial blog has been released for the cutting edge time series Mixer-based model `PatchTSMixer``. ✅ [Try it out](https://huggingface.co/blog/patchtsmixer)
+#### A getting started tutorial blog has been released for the cutting edge time series Mixer-based model `PatchTSMixer`. ✅ [Try it out](https://huggingface.co/blog/patchtsmixer)
 
 ## [Dec, 2023] 🚀 Cutting-edge Time Series Model. 📉
 
