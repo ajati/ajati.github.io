@@ -134,7 +134,7 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 }
 </style>
 
-<div class="about-section">
+<div class="about-section" markdown="1">
 
 <img src="/img/arindam_jatienhanced.jpg" alt="Arindam Jati" class="profile-image">
 
@@ -148,7 +148,7 @@ I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://r
 
 </div>
 
-<div class="about-section">
+<div class="about-section" markdown="1">
 
 ## 🎓 Academic Journey
 
@@ -168,7 +168,7 @@ I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://r
 
 </div>
 
-<div class="about-section">
+<div class="about-section" markdown="1">
 
 ## 💼 Professional Experience
 
@@ -202,7 +202,7 @@ I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://r
 
 </div>
 
-<div class="about-section">
+<div class="about-section" markdown="1">
 
 ## 🚀 Research Interests
 
@@ -219,7 +219,7 @@ I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://r
 
 </div>
 
-<div class="about-section">
+<div class="about-section" markdown="1">
 
 ## 🌟 What Drives Me
 
@@ -232,7 +232,7 @@ I'm passionate about exploring the endless possibilities at the intersection of 
 
 </div>
 
-<div class="contact-section">
+<div class="contact-section" markdown="1">
 
 ## 📬 Let's Connect!
 
