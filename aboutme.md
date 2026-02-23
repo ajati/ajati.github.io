@@ -36,19 +36,20 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 .experience-card h3 {
   margin-top: 0;
   color: #2563eb;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .experience-card .role {
   font-weight: 600;
   color: #1e293b;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
 .experience-card .duration {
   color: #64748b;
   font-style: italic;
+  font-size: 1.0625rem;
   margin-bottom: 1rem;
 }
 
@@ -65,6 +66,7 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
   padding: 0.75rem 1.25rem;
   border-radius: 0.5rem;
   text-align: center;
+  font-size: 1.0625rem;
   font-weight: 600;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -123,7 +125,7 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 
 .contact-links a {
   color: white;
-  font-size: 2rem;
+  font-size: 2.25rem;
   transition: all 0.3s ease;
   text-decoration: none;
 }
@@ -140,7 +142,7 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 
 ## 👋 Hello!
 
-I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://research.ibm.com) in Bangalore, India. My work sits at the exciting intersection of artificial intelligence and industrial applications, where I focus on creating cutting-edge AI solutions for Industry 4.0.
+I'm **Arindam Jati**, a Staff Research Scientist, Master Inventor at [**IBM Research**](https://research.ibm.com) in Bangalore, India. My work sits at the exciting intersection of artificial intelligence and industrial applications, where I focus on creating cutting-edge AI solutions for Industry 4.0.
 
 <div class="highlight-box">
 🎯 <strong>Current Focus:</strong> Building robust time series foundation models that are transforming how we understand and predict complex industrial systems.
@@ -174,9 +176,9 @@ I'm **Arindam Jati**, a Staff Research Scientist at [**IBM Research**](https://r
 
 <div class="experience-card">
 <h3>IBM Research</h3>
-<div class="role">Staff Research Scientist</div>
+<div class="role">Staff Research Scientist, Master Inventor</div>
 <div class="duration">Bangalore, India | Present</div>
-<p>Leading research initiatives in AI for Industry 4.0, developing time series foundation models, and creating innovative solutions for complex industrial challenges.</p>
+<p>Leading research initiatives in AI for Industry 4.0, developing time series foundation models, and creating innovative solutions for complex industrial challenges. Recognized as IBM Master Inventor for exceptional contributions to innovation.</p>
 </div>
 
 <div class="experience-card">
