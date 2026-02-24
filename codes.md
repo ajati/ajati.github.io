@@ -7,8 +7,8 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 <style>
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
   margin: 3rem 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 .project-card {
   background: var(--bg-secondary);
   border: 1px solid var(--border-light);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   overflow: hidden;
   transition: all 0.3s ease;
   display: flex;
@@ -26,17 +26,24 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 
 .project-card:hover {
   border-color: var(--border-color);
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-8px);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
 }
 
 .project-thumbnail {
   width: 100%;
-  height: 280px;
+  height: 180px;
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  font-weight: 500;
 }
 
 .project-thumbnail::after {
@@ -45,42 +52,12 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
-  background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
-}
-
-.thumb-tsfm {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=tsfm&backgroundColor=3b82f6,8b5cf6&scale=120');
-  background-color: #eff6ff;
-}
-
-.thumb-ttm {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=timemixer&backgroundColor=10b981,06b6d4&scale=120');
-  background-color: #ecfdf5;
-}
-
-.thumb-patchtst {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=transformer&backgroundColor=f59e0b,f97316&scale=120');
-  background-color: #fffbeb;
-}
-
-.thumb-patchtsmixer {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=mixer&backgroundColor=ec4899,a855f7&scale=120');
-  background-color: #fdf4ff;
-}
-
-.thumb-foundation {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=foundation&backgroundColor=6366f1,8b5cf6&scale=120');
-  background-color: #eef2ff;
-}
-
-.thumb-speaker {
-  background-image: url('https://api.dicebear.com/7.x/shapes/svg?seed=speaker&backgroundColor=ef4444,f97316&scale=120');
-  background-color: #fef2f2;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);
 }
 
 .project-content {
-  padding: 2.5rem;
+  padding: 1.75rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -89,33 +66,33 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 
 .project-date {
   color: var(--text-tertiary);
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .project-title {
-  font-size: 1.625rem;
+  font-size: 1.375rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   line-height: 1.3;
 }
 
 .project-description {
   color: var(--text-secondary);
-  font-size: 1.0625rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
   flex-grow: 1;
 }
 
 .project-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.875rem;
+  gap: 0.75rem;
   margin-top: auto;
 }
 
@@ -123,12 +100,12 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.625rem 1.25rem;
   background: var(--accent-color);
   color: white;
   text-decoration: none;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   border: none;
   transition: all 0.2s ease;
@@ -138,26 +115,26 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   background: var(--accent-hover);
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 .project-link::before {
   content: '→';
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
   
   .project-content {
-    padding: 2rem;
+    padding: 1.5rem;
   }
   
   .project-thumbnail {
-    height: 240px;
+    height: 160px;
   }
 }
 </style>
@@ -165,7 +142,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
 <div class="projects-grid">
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-tsfm"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">2023 - Present</div>
       <h3 class="project-title">IBM/TSFM</h3>
@@ -177,7 +156,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-ttm"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">April 2024</div>
       <h3 class="project-title">IBM TinyTimeMixers (TTM)</h3>
@@ -190,7 +171,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-patchtst"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">February 2024</div>
       <h3 class="project-title">IBM PatchTST</h3>
@@ -202,7 +185,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-patchtsmixer"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">January 2024</div>
       <h3 class="project-title">IBM PatchTSMixer</h3>
@@ -214,7 +199,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-foundation"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">December 2023</div>
       <h3 class="project-title">PatchTSMixer Foundation Model</h3>
@@ -226,7 +213,9 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail thumb-speaker"></div>
+    <div class="project-thumbnail">
+      [Placeholder Image - Replace with your image]
+    </div>
     <div class="project-content">
       <div class="project-date">August 2020</div>
       <h3 class="project-title">Adversarial Speaker Recognition</h3>
