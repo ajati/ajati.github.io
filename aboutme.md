@@ -7,127 +7,141 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 <style>
 .about-section {
   margin: 3rem 0;
-  max-width: 900px;
+  max-width: 100%;
 }
 
 .intro-text {
-  font-size: 1.25rem;
-  line-height: 1.8;
-  color: #1e293b;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #1a1a1a;
   margin: 2rem 0 3rem;
+  font-weight: 400;
 }
 
 .highlight-box {
-  background: rgba(37, 99, 235, 0.03);
-  border-left: 3px solid #2563eb;
-  padding: 1.5rem 2rem;
+  background: #f7f7f7;
+  border-left: 4px solid #2d6cdf;
+  padding: 2rem 2.5rem;
   border-radius: 0.5rem;
-  margin: 2.5rem 0;
-  font-size: 1.125rem;
+  margin: 3rem 0;
+  font-size: 1.25rem;
   line-height: 1.7;
+  color: #1a1a1a;
 }
 
 .experience-card {
   background: white;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  margin: 2rem 0;
-  border: 1px solid #e2e8f0;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 2.5rem 0;
+  border: 1px solid #e8e8e8;
   transition: all 0.2s ease;
 }
 
 .experience-card:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-color: #d4d4d4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .experience-card h3 {
   margin-top: 0;
-  color: #1e293b;
-  font-size: 1.5rem;
+  color: #1a1a1a;
+  font-size: 1.75rem;
   font-weight: 600;
 }
 
 .experience-card .role {
   font-weight: 500;
-  color: #475569;
-  font-size: 1.125rem;
-  margin-bottom: 0.5rem;
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .experience-card .duration {
-  color: #64748b;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  color: #737373;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.experience-card p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #4a4a4a;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2.5rem 0;
 }
 
 .skill-tag {
-  background: #f8fafc;
-  color: #475569;
-  padding: 0.75rem 1rem;
-  border-radius: 0.375rem;
+  background: #f7f7f7;
+  color: #1a1a1a;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   font-weight: 500;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e8e8e8;
   transition: all 0.2s ease;
 }
 
 .skill-tag:hover {
   background: white;
-  border-color: #cbd5e1;
+  border-color: #d4d4d4;
   transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .contact-section {
-  background: #f8fafc;
-  padding: 2.5rem 2rem;
-  border-radius: 0.5rem;
+  background: #f7f7f7;
+  padding: 3rem 2.5rem;
+  border-radius: 0.75rem;
   margin: 4rem 0;
   text-align: center;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e8e8e8;
 }
 
 .contact-section h2 {
-  color: #1e293b;
+  color: #1a1a1a;
   margin-top: 0;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 .contact-links {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .contact-links a {
-  color: #475569;
-  font-size: 1.75rem;
+  color: #4a4a4a;
+  font-size: 2rem;
   transition: all 0.2s ease;
   text-decoration: none;
 }
 
 .contact-links a:hover {
-  color: #2563eb;
-  transform: translateY(-2px);
+  color: #2d6cdf;
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
   .intro-text {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
   
   .experience-card {
-    padding: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .highlight-box {
+    padding: 1.5rem 2rem;
+    font-size: 1.125rem;
   }
 }
 </style>
