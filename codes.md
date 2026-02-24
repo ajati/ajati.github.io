@@ -156,8 +156,20 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail">
-      [Placeholder Image - Replace with your image]
+    <div class="project-thumbnail" style="background-image: url('/img/tspulse_overview.webp');">
+    </div>
+    <div class="project-content">
+      <div class="project-date">February 2026</div>
+      <h3 class="project-title">IBM TSPulse</h3>
+      <p class="project-description">Granite TimeSeries TSPulse - Advanced time series foundation model from IBM Granite</p>
+      <div class="project-links">
+        <a href="https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1" class="project-link" target="_blank">Hugging Face</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-thumbnail" style="background-image: url('/img/ttm_image.webp');">
     </div>
     <div class="project-content">
       <div class="project-date">April 2024</div>
@@ -185,8 +197,7 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail">
-      [Placeholder Image - Replace with your image]
+    <div class="project-thumbnail" style="background-image: url('/img/patchtsmixer.png');">
     </div>
     <div class="project-content">
       <div class="project-date">January 2024</div>
@@ -199,8 +210,7 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail">
-      [Placeholder Image - Replace with your image]
+    <div class="project-thumbnail" style="background-image: url('/img/first_image.gif');">
     </div>
     <div class="project-content">
       <div class="project-date">December 2023</div>
