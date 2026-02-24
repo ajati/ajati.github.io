@@ -156,7 +156,7 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
   </div>
 
   <div class="project-card">
-    <div class="project-thumbnail" style="background-image: url('/img/tspulse_overview.webp');">
+    <div class="project-thumbnail" style="background-image: url('/img/tspulse.png');">
     </div>
     <div class="project-content">
       <div class="project-date">February 2026</div>
@@ -164,6 +164,7 @@ subtitle: What I cannot create, I do not understand. - R. Feynman.
       <p class="project-description">Granite TimeSeries TSPulse - Advanced time series foundation model from IBM Granite</p>
       <div class="project-links">
         <a href="https://huggingface.co/ibm-granite/granite-timeseries-tspulse-r1" class="project-link" target="_blank">Hugging Face</a>
+        <a href="https://github.com/ibm-granite/granite-tsfm/tree/main/tsfm_public/models/tspulse" class="project-link" target="_blank">Source Code</a>
       </div>
     </div>
   </div>
