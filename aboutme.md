@@ -13,52 +13,54 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 .intro-text {
   font-size: 1.5rem;
   line-height: 1.7;
-  color: #1a1a1a;
+  color: var(--text-primary);
   margin: 2rem 0 3rem;
   font-weight: 400;
 }
 
 .highlight-box {
-  background: #f7f7f7;
-  border-left: 4px solid #2d6cdf;
+  background: var(--bg-accent);
+  border-left: 4px solid var(--accent-color);
   padding: 2rem 2.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   margin: 3rem 0;
   font-size: 1.25rem;
   line-height: 1.7;
-  color: #1a1a1a;
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
 }
 
 .experience-card {
-  background: white;
+  background: var(--bg-secondary);
   padding: 2.5rem;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   margin: 2.5rem 0;
-  border: 1px solid #e8e8e8;
-  transition: all 0.2s ease;
+  border: 1px solid var(--border-light);
+  transition: all 0.3s ease;
 }
 
 .experience-card:hover {
-  border-color: #d4d4d4;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
 }
 
 .experience-card h3 {
   margin-top: 0;
-  color: #1a1a1a;
+  color: var(--text-primary);
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .experience-card .role {
-  font-weight: 500;
-  color: #4a4a4a;
+  font-weight: 600;
+  color: var(--text-secondary);
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
 
 .experience-card .duration {
-  color: #737373;
+  color: var(--text-tertiary);
   font-size: 1.125rem;
   margin-bottom: 1.25rem;
 }
@@ -66,7 +68,7 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 .experience-card p {
   font-size: 1.125rem;
   line-height: 1.7;
-  color: #4a4a4a;
+  color: var(--text-secondary);
 }
 
 .skills-grid {
@@ -77,35 +79,35 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 }
 
 .skill-tag {
-  background: #f7f7f7;
-  color: #1a1a1a;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   padding: 1rem 1.25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   text-align: center;
   font-size: 1.0625rem;
-  font-weight: 500;
-  border: 1px solid #e8e8e8;
+  font-weight: 600;
+  border: 1px solid var(--border-light);
   transition: all 0.2s ease;
 }
 
 .skill-tag:hover {
-  background: white;
-  border-color: #d4d4d4;
+  background: var(--bg-accent);
+  border-color: var(--accent-color);
   transform: translateY(-2px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-sm);
 }
 
 .contact-section {
-  background: #f7f7f7;
+  background: var(--bg-accent);
   padding: 3rem 2.5rem;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   margin: 4rem 0;
   text-align: center;
-  border: 1px solid #e8e8e8;
+  border: 1px solid var(--border-light);
 }
 
 .contact-section h2 {
-  color: #1a1a1a;
+  color: var(--text-primary);
   margin-top: 0;
   font-size: 2rem;
 }
@@ -119,14 +121,14 @@ subtitle: AI Researcher | Time Series Expert | Industry 4.0 Innovator
 }
 
 .contact-links a {
-  color: #4a4a4a;
+  color: var(--text-secondary);
   font-size: 2rem;
   transition: all 0.2s ease;
   text-decoration: none;
 }
 
 .contact-links a:hover {
-  color: #2d6cdf;
+  color: var(--accent-color);
   transform: translateY(-3px);
 }
 
